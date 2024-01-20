@@ -1,0 +1,10 @@
+[package]
+name = "imxrt-serial-downloader-cli"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+clap = "4.4.18"
+imxrt-serial-downloader = { workspace = true }
+tokio = { version = "1.35.1", features = ["full"] }

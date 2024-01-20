@@ -1,0 +1,10 @@
+[package]
+name = "imxrt-serial-downloader"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0.79"
+async-hid = { git = "https://github.com/korbin/async-hid.rs", default-features = false, features = ["tokio"] }
+futures = "0.3.30"
